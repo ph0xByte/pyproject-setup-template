@@ -1,0 +1,24 @@
+# Links zu externen Quellen
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Changelogs](https://keepachangelog.com/en/1.1.0/)
+- [Semantic Versioning](https://semver.org/)
+- [Google Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [Google Engineering Practices Documentation](https://github.com/google/eng-practices), [DevOps Best Pracitces](https://www.atlassian.com/devops/what-is-devops/devops-best-practices)
+- [PyPi Project Package Creation](https://pythonhosted.org/an_example_pypi_project/intro.html)
+- [Git Tutorial Atlassian](https://www.atlassian.com/de/git), [Git SCM](https://git-scm.com/), [training.github](https://training.github.com/downloads/de/github-git-cheat-sheet/) 
+- [docs.github](https://docs.github.com/de), [GitHub Pages](https://docs.github.com/de/pages), [Git Workflows](https://docs.github.com/de/actions/use-cases-and-examples/creating-an-example-workflow#visualisieren-der-workflowdatei), [GitHub Status Badge](https://docs.github.com/de/actions/use-cases-and-examples/deploying/deploying-with-github-actions#displaying-a-status-badge), [Git Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.de_DE.html), [Git Branch Models](https://nvie.com/posts/a-successful-git-branching-model/)
+- [GitHub Marketplace](https://github.com/marketplace)
+  - [Mermaid Chart](https://github.com/marketplace/mermaid-chart)
+  - [Docker in GitHub CoPilot](https://github.com/marketplace/docker-for-github-copilot)
+  - [Pull Checklist](https://github.com/marketplace/pull-checklist)
+- [.gitignore](https://github.com/github/gitignore)
+- Useful [Classifiers](https://pypi.org/pypi?%3Aaction=list_classifiers)
+  - Development Status
+  - Environment
+  - Intended Audience 
+  - License
+  - Operating System
+  - Programming Language 
+  - Topic
+- [InnerSource](https://githubtraining.github.io/innersource-theory/#/)

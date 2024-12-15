@@ -1,0 +1,154 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+authors = ["ph0xByte"]
+description = "New Project Setup"
+readme = "README.md"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+autoflake = "^2.3.1"
+black = "^24.10.0"
+build = "^1.2.2.post1"
+coverage = "^7.6.3"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+mypy = "^1.11.2"
+pre-commit = "^4.0.1"
+pytest-cov = "^5.0.0"
+toml = "^0.10.2"
+tox = "^4.21.2"
+
+[tool.poetry.group.mostfreq.dependencies]
+numpy = "*"
+pandas = "*"
+polars = "*"
+dask = "*"
+pyspark = "*"
+numba = "*"
+cuda = "*"
+geopandas = "*"
+geopy = "*"
+folium = "*"
+dbfread = "*"
+physipy = "*"
+astropy = "*"
+sympy = "*"
+keras = "*"
+tensorflow = "*"
+scikit-learn = "*"
+xgboost = "*"
+catboost = "*"
+matplotlib = "*"
+seaborn = "*"
+dash = "*"
+plotly = "*"
+streamlit = "*"
+vizzu = "*"
+taipy = "*"
+bokeh = "*"
+fastapi = "*"
+uvicorn = "*"
+aiohttp = "*"
+unittest = "*"
+pytest = "*"
+black = "*"
+pylint = "*"
+flake8 = "*"
+ruff = "*"
+locust = "*"
+mkdocs = "*"
+sphinx = "*"
+pydocs = "*"
+pandoc = "*"
+pygame = "*"
+tkinter = "*"
+pyqt = "*"
+wxPython = "*"
+audioflux = "*"
+librosa = "*"
+opencv = "*"
+pillow = "*"
+asyncio = "*"
+multiprocessing = "*"
+threading = "*"
+celery = "*"
+ssl = "*"
+socket = "*"
+selenium = "*"
+beautifulsoup4 = "*"
+scrapy = "*"
+requests = "*"
+hashlib = "*"
+crcmod = "*"
+pypdf2 = "*"
+logging = "*"
+textacy = "*"
+colorama = "*"
+alive-progress= "*"
+rich= "*"
+faker= "*"
+pendulum= "*"
+uuid= "*"
+ulid= "*"
+typing= "*"
+pathlib= "*"
+contextlib= "*"
+pickle= "*"
+json= "*"
+jwt= "*"
+Humanize= "*"
+fire= "*"
+ppm-cli= "*"
+atexit= "*"
+watchdog= "*"
+psycopg2= "*"
+sqlalchemy= "*"
+sqlite3= "*"
+redis= "*"
+postgresql= "*"
+pyserial= "*"
+pywin32= "*"
+
+[tool.poetry.group.fastapi.dependencies]
+fastapi = "^0.115.2"
+uvicorn = {extras = ["standard"], version = "^0.31.1"}
+
+[tools.poetry.group.dev]
+optional = true
+
+[tools.poetry.group.mostfreq]
+optional = true
+
+[tools.poetry.group.data]
+optional = true
+
+[tools.poetry.group.fastapi]
+optional = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.autoflake]
+ignore-init-module-imports = true
+in-place = true
+recursive = true
+remove-all-unused-imports = true
+remove-unused-variables = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "-ra -v --cov --cov-report term-missing"
+minversion = 7.0
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,44 @@
+# IDE- und Editor-spezifische Dateien
+*.idea
+.idea/*
+*.vscode
+*~
+.*.sw?
+*.venv
+
+# Python-spezifische Cache- und Build-Dateien
+__pycache__
+.ipynb_checkpoints
+.mypy_cache
+.pytest_cache
+htmlcov
+dist
+site
+
+
+# Coverage- und Testdateien
+*.tox
+*.coverage
+coverage.xml
+
+# Datenbank- und Logdateien
+*.db
+*.log
+log.txt
+
+# Virtuelle Umgebungen und Abhängigkeiten
+env3.*
+env
+.*env
+venv
+Pipfile.lock
+
+# Dokumentations- und Archivdateien
+docs_build
+.zip
+
+# Plattform-spezifische Dateien
+.netlify
+
+# Git-spezifische Dateien (normalerweise nicht in .gitignore, aber falls nötig)
+.git
